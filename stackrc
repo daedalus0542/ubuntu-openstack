@@ -1,0 +1,29 @@
+
+# interface for external network 
+IF_NAME="p1p1"
+
+# bridge VMs will use
+BRIDGE_INTERFACE=br100
+BRDIGE_ADDRESS=192.168.100.1
+FIXED_RANGE=192.168.100.0/24
+FIXED_NETWORK=192.168.100.0
+FIXED_NETMASK=255.255.255.0
+FIXED_IP=192.168.100.1
+
+INTERNAL_IP_RANGE="10.0.0.0/24"
+INTERNAL_FIRST_IP="10.0.0.2"
+FLOATING_IP_RANGE="10.153.107.72/29"
+
+MYSQL_ROOT_PWD="prettyplease"
+
+NOVA_PWD="opensesame"
+GLANCE_PWD="opensesame"
+KEYSTONE_PWD="opensesame"
+CINDER_PWD="opensesame"
+OVS_QUANTUM_PWD="opensesame"
+
+SWIFT_PWD='opensesame'
+
+ADMIN_TOKEN='d0932rjldfad350gbtakj'
+EMAIL=athir@nuaimi.com
+
